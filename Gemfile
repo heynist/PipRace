@@ -31,3 +31,8 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug'
 
+gem 'rake', '0.9.2'
+
+group :development do
+  gem 'cucumber-rails'
+end
